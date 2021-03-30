@@ -1,0 +1,36 @@
+container:
+  type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{}', spacing_below: none,
+    background: ''}
+components:
+- type: LinearPanel
+  properties: {spacing_above: none, spacing_below: none, background: '', foreground: '',
+    border: '', visible: true, role: null, tooltip: ''}
+  name: linear_panel_1
+  layout_properties: {grid_position: 'IXDPOM,TODJCT'}
+  components:
+  - type: Canvas
+    properties: {role: null, height: '0', tooltip: '', border: '', foreground: '',
+      visible: false, spacing_above: none, spacing_below: none, background: ''}
+    name: canvas_1
+    layout_properties: {}
+    event_bindings: {show: canvas_1_show}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: '100', tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: none,
+      source: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAFCAYAAACzSkmrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAZKADAAQAAAABAAAABQAAAACL6YC8AAAALElEQVQ4EWNgGAWDKgQY/1/1/z+oXDTCHcM0wv0/6Lw/GiGDLEpGI2SQRQgAu3gDKsIJlLoAAAAASUVORK5CYII=',
+      spacing_below: none, background: '', horizontal_align: center}
+    name: image_1
+    layout_properties: {grid_position: 'IXDPOM,EZYHIA'}
+custom_component: true
+properties:
+- {name: rotate_angle, type: number, default_value: 0, default_binding_prop: true,
+  allow_binding_writeback: false}
+- {name: train_id, type: string, default_value: default}
+- {name: train_occupation, type: string, default_value: default}
+- {name: track_type, type: string, default_value: default}
+- {name: l_shaped_curved, type: boolean, default_value: null}
+- {name: v_shaped_track, type: boolean, default_value: false}
+- {name: v_shaped_mirrored_track, type: boolean, default_value: false}
+- {name: v_shaped_train_position, type: string, default_value: '1'}

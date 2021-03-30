@@ -1,0 +1,55 @@
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: Main_page}
+package_name: Control_Room
+allow_embedding: true
+name: Control Room
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox}
+metadata: {}
+db_schema:
+- name: Location
+  id: 66574
+  python_name: location
+  columns:
+    H4Xje_5zMKs=:
+      name: Track_status
+      type: bool
+      admin_ui: {order: 1, width: 200}
+    dPhMJrvP5K8=:
+      name: Location
+      type: string
+      admin_ui: {order: 0, width: 200}
+    j47Sz+VMsD8=:
+      name: Direction
+      type: bool
+      admin_ui: {order: 2, width: 200}
+  access: {python_name: location, app_id: B72PIOKBOFB6ODJB, server: full, client: search,
+    table_mapping_name: null, table_mapping_id: null, table_id: 66574}
+- name: Trains
+  id: 66573
+  python_name: trains
+  columns:
+    0ePcSy2ZSQE=:
+      name: Name
+      type: string
+      admin_ui: {order: 0, width: 200}
+    EBIP2xxKcJY=:
+      name: Location
+      type: liveObject
+      backend: anvil.tables.Row
+      admin_ui: {order: 4, width: 200}
+      table_id: 66574
+    asttOjbhq5Q=:
+      name: Direction
+      type: bool
+      admin_ui: {order: 4, width: 200}
+    cmCc4xNzcNU=:
+      name: Type
+      type: string
+      admin_ui: {order: 1, width: 200}
+  access: {python_name: trains, app_id: B72PIOKBOFB6ODJB, server: full, client: full,
+    table_mapping_name: null, table_mapping_id: null, table_id: 66573}
+renamed: true

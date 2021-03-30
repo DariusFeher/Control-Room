@@ -1,0 +1,31 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: LinearPanel
+  properties: {spacing_above: none, spacing_below: none, background: '', foreground: '',
+    border: '', visible: true, role: null, tooltip: ''}
+  name: linear_panel_1
+  layout_properties: {grid_position: 'FEQQYU,XYCDVG'}
+  components:
+  - type: Image
+    properties: {role: null, vertical_align: center, height: '100', tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: none,
+      source: 'data:image/png;base64,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',
+      spacing_below: none, background: '', horizontal_align: center}
+    name: image_1
+    layout_properties: {}
+  - type: Canvas
+    properties: {role: null, height: '0', tooltip: '', border: '', foreground: '',
+      visible: false, spacing_above: none, spacing_below: none, background: ''}
+    name: canvas_1
+    layout_properties: {}
+    event_bindings: {show: canvas_1_show}
+custom_component: true
+properties:
+- {name: rotate_angle, type: number, default_value: 0, default_binding_prop: true}
+- {name: train_id, type: string, default_value: default}
+- {name: train_occupation, type: string, default_value: default}
+- {name: track_type, type: string, default_value: default}
+- {name: station_type, type: string, default_value: default}
+- {name: station_name, type: string, default_value: default}

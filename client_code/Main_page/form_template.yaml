@@ -1,0 +1,399 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: never, col_spacing: none, spacing_above: small, col_widths: '{}', spacing_below: small,
+    background: ''}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: XYPanel
+    properties: {role: null, width: 1500, align: center, height: '1000', tooltip: '',
+      border: '', foreground: '', visible: true, spacing_above: small, spacing_below: small,
+      background: ''}
+    name: xy_panel_1
+    layout_properties: {grid_position: 'ZPOENS,HQWJZH', full_width_row: true}
+    components:
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_4
+      layout_properties: {x: 600, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_3
+      layout_properties: {x: 500, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_2
+      layout_properties: {x: 400, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_1
+      layout_properties: {x: 300, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: '', train_occupation: '', track_type: empty track,
+        l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_34
+      layout_properties: {x: 200, y: 0, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: regional, station_name: Regional_1}
+      name: station_section_1
+      layout_properties: {x: 1000, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_49
+      layout_properties: {x: 700, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_6
+      layout_properties: {x: 900, y: 0, width: 100}
+    - type: form:Track_section
+      properties: {v_shaped_mirrored_track: false, train_occupation: default, train_id: default,
+        v_shaped_train_position: '1', l_shaped_track: true, track_type: empty track,
+        rotate_angle: 0, v_shaped_track: false, l_shaped_curved: true}
+      name: track_section_41
+      layout_properties: {x: 0, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_48
+      layout_properties: {x: 0, y: 800, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_40
+      layout_properties: {x: 0, y: 700, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: regional, station_name: Regional_3}
+      name: station_section_8
+      layout_properties: {x: 0, y: 600, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_39
+      layout_properties: {x: 0, y: 500, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_38
+      layout_properties: {x: 0, y: 400, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_37
+      layout_properties: {x: 0, y: 300, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_36
+      layout_properties: {x: 0, y: 200, width: 100}
+      data_bindings: []
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: '', train_occupation: '', track_type: empty track,
+        l_shaped_curved: true, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_35
+      layout_properties: {x: 0, y: 98, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: '', switch_position: true, train_up: false, train_id: '',
+        curved: null, track_type: empty junction, rotate_angle: 90, upside_down: true,
+        train_position_large_junction: '1'}
+      name: junction_8
+      layout_properties: {x: 82, y: 900, width: 120}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_33
+      layout_properties: {x: 200, y: 900, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: interchange, station_name: Interch_1}
+      name: station_section_4
+      layout_properties: {x: 200, y: 200, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: false, train_up: true,
+        train_id: default, curved: null, track_type: empty junction, rotate_angle: 0,
+        upside_down: true, train_position_large_junction: '1'}
+      name: junction_5
+      layout_properties: {x: 300, y: 300, width: 127}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_32
+      layout_properties: {x: 300, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: true, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '2'}
+      name: track_section_42
+      layout_properties: {x: 400, y: 200, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_31
+      layout_properties: {x: 400, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_15
+      layout_properties: {x: 400, y: 600, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: main, station_name: Manchester}
+      name: station_section_5
+      layout_properties: {x: 400, y: 500, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_14
+      layout_properties: {x: 400, y: 400, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 180, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: null, v_shaped_track: false, v_shaped_mirrored_track: true,
+        v_shaped_train_position: '1'}
+      name: track_section_43
+      layout_properties: {x: 400, y: 800, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_30
+      layout_properties: {x: 500, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_16
+      layout_properties: {x: 500, y: 700, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_13
+      layout_properties: {x: 500, y: 300, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_29
+      layout_properties: {x: 600, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_17
+      layout_properties: {x: 600, y: 600, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: main, station_name: Birmingham}
+      name: station_section_3
+      layout_properties: {x: 600, y: 400, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_51
+      layout_properties: {x: 702, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_28
+      layout_properties: {x: 800, y: 900, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: regional, station_name: Regional_2}
+      name: station_section_6
+      layout_properties: {x: 800, y: 800, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_23
+      layout_properties: {x: 800, y: 300, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_22
+      layout_properties: {x: 800, y: 200, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: false, train_up: true,
+        train_id: default, curved: null, track_type: empty junction, rotate_angle: 90,
+        upside_down: false, train_position_large_junction: '1'}
+      name: junction_7
+      layout_properties: {x: 882, y: 900, width: 120}
+    - type: form:Track_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_10
+      layout_properties: {x: 900, y: 700, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_25
+      layout_properties: {x: 800, y: 700, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_19
+      layout_properties: {x: 900, y: 300, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 0, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: interchange, station_name: Interch_2}
+      name: station_section_7
+      layout_properties: {x: 1000, y: 900, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_20
+      layout_properties: {x: 1000, y: 200, width: 100}
+    - type: form:Track_section
+      properties: {v_shaped_mirrored_track: false, train_occupation: default, train_id: default,
+        v_shaped_train_position: '1', l_shaped_track: true, track_type: empty track,
+        rotate_angle: 270, v_shaped_track: false, l_shaped_curved: true}
+      name: track_section_27
+      layout_properties: {x: 1100, y: 900, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: true, train_up: true,
+        train_id: default, curved: true, track_type: empty junction, rotate_angle: 0,
+        upside_down: false, train_position_large_junction: '1'}
+      name: junction_3
+      layout_properties: {x: 1100, y: 800, width: 120}
+    - type: form:Track_section
+      properties: {rotate_angle: 45, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_9
+      layout_properties: {x: 1000, y: 800, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 270, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_12
+      layout_properties: {x: 1100, y: 700, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 270, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_8
+      layout_properties: {x: 1100, y: 600, width: 100}
+    - type: form:Station_section
+      properties: {rotate_angle: 270, train_id: default, train_occupation: default,
+        track_type: empty track, station_type: main, station_name: London}
+      name: station_section_2
+      layout_properties: {x: 1100, y: 500, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 270, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_7
+      layout_properties: {x: 1100, y: 400, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 270, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_50
+      layout_properties: {x: 1100, y: 300, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: false, train_up: true,
+        train_id: default, curved: true, track_type: empty junction, rotate_angle: 0,
+        upside_down: true, train_position_large_junction: '1'}
+      name: junction_2
+      layout_properties: {x: 1100, y: 200, width: 120}
+    - type: form:Track_section
+      properties: {v_shaped_mirrored_track: false, train_occupation: default, train_id: default,
+        v_shaped_train_position: '1', l_shaped_track: true, track_type: empty track,
+        rotate_angle: 180, v_shaped_track: false, l_shaped_curved: true}
+      name: track_section_5
+      layout_properties: {x: 1100, y: 96, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: false, train_up: true,
+        train_id: default, curved: null, track_type: empty junction, rotate_angle: 0,
+        upside_down: false, train_position_large_junction: '1'}
+      name: junction_6
+      layout_properties: {x: 300, y: 700, width: 127}
+    - type: form:Track_section
+      properties: {v_shaped_mirrored_track: false, train_occupation: default, train_id: default,
+        v_shaped_train_position: '1', l_shaped_track: false, track_type: empty track,
+        rotate_angle: 315, v_shaped_track: false, l_shaped_curved: null}
+      name: track_section_21
+      layout_properties: {x: 200, y: 800, width: 105}
+    - type: form:Junction_section
+      properties: {train_occupation: default, switch_position: false, train_up: true,
+        train_id: default, curved: true, track_type: empty junction, rotate_angle: 270,
+        upside_down: true, train_position_large_junction: '1'}
+      name: junction_1
+      layout_properties: {x: 800, y: 76, width: 120}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false, l_shaped_curved: null,
+        v_shaped_empty_track: false, v_shaped_mirrored_empty_track: false}
+      name: track_section_46
+      layout_properties: {x: 700, y: 500, width: 100}
+    - type: form:Junction_section
+      properties: {train_occupation: '', switch_position: false, train_up: true, train_id: '',
+        curved: null, track_type: empty junction, rotate_angle: 270, upside_down: false,
+        train_position_large_junction: '2'}
+      name: junction_4
+      layout_properties: {x: 97, y: 78, width: 120}
+    - type: form:Junction_section
+      properties: {train_occupation: '', switch_position: false, train_up: true, train_id: '',
+        curved: null, track_type: large junction, rotate_angle: 0, upside_down: false,
+        train_position_large_junction: '2'}
+      name: junction_9
+      layout_properties: {x: 700, y: 500, width: 200}
+    - type: form:Track_section
+      properties: {rotate_angle: 90, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_curved: false, v_shaped_track: false, v_shaped_mirrored_track: false,
+        v_shaped_train_position: '1'}
+      name: track_section_24
+      layout_properties: {x: 800, y: 400, width: 100}
+    - type: form:Track_section
+      properties: {rotate_angle: 135, train_id: default, train_occupation: default,
+        track_type: empty track, l_shaped_empty_track: false}
+      name: track_section_18
+      layout_properties: {x: 800, y: 400, width: 100}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+- type: Label
+  properties: {role: headline, align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: Track & Signalling, font_size: 26, font: Times New Roman,
+    spacing_above: small, icon_align: left, spacing_below: small, italic: false, background: '',
+    bold: true, underline: false, icon: ''}
+  name: label_1
+  layout_properties: {slot: title}
+- type: Timer
+  properties: {interval: 0.75}
+  name: timer_1
+  event_bindings: {tick: timer_1_tick}
+item_type: {table_id: null}
